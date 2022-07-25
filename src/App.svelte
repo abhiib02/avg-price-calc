@@ -1,12 +1,12 @@
 <script>
 import 'bulma/css/bulma.css';
 
-let inputCounts=1;
+let inputcounts=1;
 let quantity=[],price=[],cost=[],tquantity=0,tprice=0
 let average=0;
 
-function incinputCount(){
-  inputCounts++;
+function incinputcount(){
+  inputcounts++;
 }
 function totalquantity(){
     for (let i = 0; i < quantity.length; i++) {
