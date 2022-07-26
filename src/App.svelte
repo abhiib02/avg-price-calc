@@ -1,31 +1,5 @@
 <script>
-import 'bulma/css/bulma.css';
 
-let inputcounts=1;
-let quantity=[],price=[],cost=[],tquantity=0,tprice=0
-let average=0;
-
-function incinputcount(){
-  inputcounts++;
-}
-function totalquantity(){
-    for (let i = 0; i < quantity.length; i++) {
-      tquantity += parseFloat(quantity[i]);
-    } 
-}
-function totalamount(){
-  for (let i = 0; i < price.length; i++) {
-    tprice += parseFloat(price[i]) * parseFloat(quantity[i]);
-    }
-}
-function avgprice(){
-  average=0;
-  tquantity=0;
-  tprice=0;
-  totalamount()
-  totalquantity()
-  average = tprice / tquantity;
-}
 </script>
 <main>
   <section class="hero is-link">
