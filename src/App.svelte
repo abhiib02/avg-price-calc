@@ -1,6 +1,4 @@
-<script>
 
-</script>
 <main>
   <section class="hero is-link">
     <div class="hero-body">
