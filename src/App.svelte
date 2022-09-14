@@ -63,7 +63,7 @@ function avgprice(){
       </table>
     </div>
     <div class="column center">
-      <strong>Avg.Price:</strong><h1 class="is-size-1">{average.toFixed(2)}</h1>
+      <strong>Avg.Price:</strong><h1 class="is-size-1">{average.toFixed(5)}</h1>
       <button class="button is-black" on:click={avgprice} >Calculate Average price</button>
     </div>
     
