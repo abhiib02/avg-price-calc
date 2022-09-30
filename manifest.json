@@ -1,19 +1,19 @@
 {
-    "short_name": "Coin Average Calc",
-    "name": "Coin Average Calc",
+    "short_name": "Average Coin Calc",
+    "name": "Average Coin Calc",
     "icons": [
       {
-        "src": "/images/vite.svg",
+        "src": "vite.svg",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/images/vite.svg",
+        "src": "vite.svg",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://avgcoin.netlify.app/",
+    "start_url": "/",
     "background_color": "#2e4095",
     "display": "standalone",
     "scope": "/",
